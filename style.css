@@ -92,9 +92,16 @@ a {
   text-align: left;
 }
 .boton{
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 777px;
+  margin-top: 145px;
+  margin-left: 43px;
+  color: #FF6A00;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.5s ease-out 100ms
+}
+
+.boton:hover{
+  opacity: .5;
 }
 
 .titulo{
@@ -106,5 +113,23 @@ a {
   width: 90%;
   height: 57%;
   margin-left: 5% !important;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #524AA7;
+}
 
+.bfinal{
+  color: #FFF;
+  margin-left: 278px;
+  margin-top: 55px;
+}
+
+.precio{
+  margin-top: 68px;
+}
+
+.parrafo{
+  width:91.8%;
+  margin-left: 34px;
+  margin-top: 35px;
 }
