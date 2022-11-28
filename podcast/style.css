@@ -1,0 +1,52 @@
+body {
+height: 200px;
+}
+
+.very-specific-design {
+  width: 1000px;
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
+
+.scaleable-wrapper {
+  padding: 20px;
+  resize: both;
+  position: relative;
+  height: 400px;
+}
+
+video {
+  width: 80%;
+  border-radius: 78px;
+}
+
+#play-pause-button {
+  font-size: 5em;
+  cursor: pointer;
+  margin-left: -0px;
+  position: absolute;
+
+}
+
+.conte-icon{
+  margin-top: -175px;
+  margin-left: -346px;
+}
+
+.boton-redondo{
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  margin-top: -199px;
+  margin-left: 290px;
+  background-color: rgb(255, 255, 255);
+  }

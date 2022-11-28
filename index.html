@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="very-specific-design" id="very-specific-design">
+        <iframe src="home.html" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+    
+</body>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+<script>
+    
+function makeResizable(element){
+	if (element && jQuery(element).length){
+		var $el = jQuery(element);
+		var elHeight = $el.outerHeight();
+		var elWidth = $el.outerWidth();
+
+		var $wrapper = $el.parent();
+
+		var starterData = {
+			size: {
+				width: $wrapper.width(),
+				height: $wrapper.height()
+			}
+		}
+		var scale = Math.min(
+			starterData.size.width / $el.outerWidth(),
+			starterData.size.height / $el.outerHeight()
+		);
+		if (scale > 1){
+			scale = 1;
+		}
+		var elMarginBottom = (scale * elHeight) - starterData.size.height;
+		$el.css({
+			transform: "translate3d(-50%, 0, 0) " + "scale(" + scale + ")",
+			'margin-bottom': elMarginBottom
+		});
+	}
+}
+jQuery(document).ready(function() {
+	makeResizable('#very-specific-design');
+});
+jQuery(window).load(function() {
+//	makeResizable('#very-specific-design');
+});
+jQuery(window).resize(function() {
+	makeResizable('#very-specific-design');
+});
+
+
+
+</script>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Flip Page Transition</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Work+Sans'>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <section class="view" data-view-initial id="view-1">
+    <div class="view__inner">
+      <div class="row">
+        <div class="col titulo">Producto</div>
+      </div>
+      <div class="row align-items-center fila1" style="background-color: red;">
+        <div class="col-sm">
+          <ul class="lista">
+            <li>Transformaciones en el proceso de desarrollo de nuevos productos (digitalización).</li>
+            <li>Personalización de productos y servicios.</li>
+            <li>Surtido de productos a vender en el <i>E-Commerce</i>.</li>
+          </ul>
+        </div>
+        <div class="col-sm"><img class="img-fluid rounded "
+            src="https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""></div>
+      </div>
+      <div class="row">
+        <iframe src="podcast\podcast-1.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no"
+          frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+      </div>
+      <div class="boton"><a data-to-view="#view-2">Go to view 2</a></div>
+    </div>
+  </section>
+  <section class="view" id="view-2">
+    <div class="view__inner">
+      <a data-to-view="#view-3">Go to view 3</a>
+    </div>
+  </section>
+  <section class="view" id="view-3">
+    <div class="view__inner">
+      <a data-to-view="#view-4">Go to view 4</a>
+    </div>
+  </section>
+  <section class="view" id="view-4">
+    <div class="view__inner">
+      <a data-to-view="#view-4">Final</a>
+    </div>
+  </section>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
