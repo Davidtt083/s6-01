@@ -82,7 +82,7 @@ a {
   height: 100%;
   text-align: center;
   color: white;
-  background-color: #2BD996;
+  background-color: #3B69FA;
   transition: opacity 0.6s ease;
   transition-property: opacity, transform;
 }
@@ -92,13 +92,23 @@ a {
   text-align: left;
 }
 .boton{
-  margin-top: 145px;
+  margin-top: 179px;
   margin-left: 43px;
   color: #FF6A00;
   font-size: 2em;
   cursor: pointer;
   transition: all 0.5s ease-out 100ms
 }
+.boton2{
+  display: flex;
+  margin-top: 356px;
+  margin-left: 524px;
+  color: #FFF;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.5s ease-out 100ms
+}
+
 
 .boton:hover{
   opacity: .5;
@@ -111,17 +121,50 @@ a {
 
 .fila1{
   width: 90%;
-  height: 57%;
+  height: 83%;
   margin-left: 5% !important;
   padding: 20px;
   border-radius: 20px;
   background-color: #524AA7;
+  padding-top: 48px;
+  padding-left: 40px;
 }
 
+.fila2{
+  width: 90%;
+  height: 79%;
+  margin-left: 5% !important;
+  margin-top: 20px !important;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #524AA7;
+}
+.filaf{
+  width: 90%;
+  height: 83%;
+  margin-left: 5% !important;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #524AA7;
+  padding-top: 48px;
+  padding-left: 40px;
+  margin-top: 10px !important;
+}
 .bfinal{
   color: #FFF;
   margin-left: 278px;
   margin-top: 55px;
+}
+
+.botonr{
+  position: absolute !important;
+  margin-top: 458px;
+  margin-left: -291px;
+  color: #FFF;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.5s ease-out 100ms;
+  z-index: 9999;
 }
 
 .precio{
@@ -132,4 +175,22 @@ a {
   width:91.8%;
   margin-left: 34px;
   margin-top: 35px;
+}
+parrafo1{
+  width: 91.8%;
+}
+
+.iframe1{
+  margin-left: -71px;
+}
+
+.bfinal2{
+  color: #FFF;
+  margin-left: 1px;
+  margin-top: 83px;
+  position: fixed;
+}
+
+.texto{
+  font-size: 18px;
 }
