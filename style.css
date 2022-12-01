@@ -101,12 +101,13 @@ a {
 }
 .boton2{
   display: flex;
-  margin-top: 356px;
+  margin-top: 32px;
   margin-left: 524px;
   color: #FFF;
   font-size: 2em;
   cursor: pointer;
-  transition: all 0.5s ease-out 100ms
+  transition: all 0.5s ease-out 100ms;
+  z-index: 10;
 }
 
 
@@ -164,7 +165,8 @@ a {
   font-size: 2em;
   cursor: pointer;
   transition: all 0.5s ease-out 100ms;
-  z-index: 9999;
+  z-index: 8;
+  width: 50%;
 }
 
 .precio{
@@ -188,8 +190,10 @@ a {
 .bfinal2{
   color: #FFF;
   margin-left: 1px;
-  margin-top: 83px;
+  margin-top: 331px;
   position: fixed;
+  z-index: 5;
+  height: 1px;
 }
 
 .texto{
