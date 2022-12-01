@@ -67,10 +67,10 @@ a {
   opacity: 0;
 }
 .view:nth-child(2n) .view__inner {
-  background-color: #AD9380;
+  background-color: #ED6464;
 }
 .view:nth-child(3n) .view__inner {
-  background-color: #ED6464;
+  background-color: #3B69FA;
 }
 .view:nth-child(4n) .view__inner {
   background-color: #AC92EC;
@@ -92,17 +92,18 @@ a {
   text-align: left;
 }
 .boton{
-  margin-top: 179px;
-  margin-left: 43px;
+  margin-top: 236px;
+  margin-left: 620px;
   color: #FF6A00;
   font-size: 2em;
   cursor: pointer;
-  transition: all 0.5s ease-out 100ms
+  transition: all 0.5s ease-out 100ms;
+  height: 100px;
 }
 .boton2{
   display: flex;
   margin-top: 32px;
-  margin-left: 524px;
+  margin-left: 544px;
   color: #FFF;
   font-size: 2em;
   cursor: pointer;
@@ -169,6 +170,18 @@ a {
   width: 50%;
 }
 
+.botonr2{
+  position: absolute !important;
+  margin-top: 458px;
+  margin-left: -319px;
+  color: #FFF;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.5s ease-out 100ms;
+  z-index: 8;
+  width: 50%;
+}
+
 .precio{
   margin-top: 68px;
 }
@@ -185,6 +198,7 @@ a {
 
 .iframe1{
   margin-left: -71px;
+  margin-top: -37px;
 }
 
 .bfinal2{
@@ -198,4 +212,26 @@ a {
 
 .texto{
   font-size: 18px;
+}
+
+.ima1{
+  width: 357px !important;
+  margin-top: -35px;
+  margin-left: 1px;
+}
+
+.fotonf{
+  position:absolute;
+  height: 100px;
+  z-index: 0;
+  height: 1px !important;
+  margin-top: -89px !important;
+}
+
+.b2{
+  margin-left: 632px;
+}
+
+.br2{
+  margin-left: -315px;
 }
